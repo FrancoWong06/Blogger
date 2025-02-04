@@ -1,0 +1,45 @@
+.footer-container{
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(128, 128, 128, 0.304);
+}
+
+.footer {
+  width: 100vw;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slogan{
+  margin-left: 1rem;
+  margin-top: 1.6rem;
+}
+
+.slogan > h2 {
+  color: #6366f1;
+  margin: 0;
+}
+
+.footer-nav-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.6rem;
+}
+
+.footer-nav{
+  margin-left: 1rem;
+  width: 16rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rights{
+  margin-right: 1rem;
+}
+
+.footer-about{
+  text-decoration: none;
+  color: #484848;
+}
